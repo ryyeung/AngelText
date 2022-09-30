@@ -21,6 +21,5 @@ if __name__ == '__main__':
     contact_text = get_contacts('contact.txt')
 
     for contact in contact_text:
-
         for line in text:
             send_message(str(contact)[1:], line)
